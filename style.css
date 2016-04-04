@@ -1,9 +1,38 @@
 #main-picture {
-	max-height: 99%;
-	max-width: 99%;
+	max-width: 95% !important;
+	max-height: 95% !important;
 	z-index: -1;
 }
 
+body{
+	margin: 0;
+	padding: 0;
+}
+
 #name{
-	
+	position: absolute;
+	left: 65.15%;
+	bottom: 48.09%;
+	height: 2.3%;
+	width: 12.55%;
+}
+
+#email{
+	position: absolute;
+	left: 44.15%;
+	bottom: 48.09%;
+	height: 2.3%;
+	width: 12.55%;
+}
+
+#submit{
+	position: absolute;
+	left: 57.55%;
+	bottom: 38.89%;
+	height: 5.3%;
+	width: 10%;
+	background-color: rgb(40, 200, 40);
+	font-size: 2em;
+	color: white;
+	z-index: 0;	
 }
